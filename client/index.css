@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-decoration-skip-ink: none;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+img {
+  width: 100px;
+}
+
+div#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+div#root > header {
+  background-color: rgb(204, 1, 1);
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+div#root > header > h1 {
+  color: white;
+}
+
+div#root > header > nav {
+  color: white;
+  background-color: rgb(212, 207, 192);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+div#root > header > nav > * {
+  margin: 2px;
+}
+main {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home {
+  margin: 1rem;
+  min-height: 80vh;
+}
+.home > ul {
+  list-style: none;
+  margin: 3px;
+}
+.home > ul > li {
+  margin: 3px;
+}
+.home > ul > li :visited {
+  color: red;
+  font-weight: bold;
+}
+.home > ul > li :hover {
+  color: black;
+  font-weight: bold;
+}
+.home > h2 {
+  margin-bottom: 1rem;
+}
+.titulo {
+  color: white;
+  padding: 1rem;
+}
+
+.teamDetails {
+  display: flex;
+  flex-direction: column;
+  min-height: 83vh;
+  margin: 2rem auto;
+  width: 500px;
+}
+.teamDetails > h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.teamDetails > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  list-style: none;
+  background-color: beige;
+  box-shadow: 0 4px 6px black;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.newTeam {
+  display: flex;
+  flex-direction: column;
+  min-height: 83vh;
+  margin: 2rem auto;
+  width: 500px;
+}
+
+.newTeam > h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: beige;
+  width: 500px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px black;
+}
+
+.formTeam > * {
+  display: flex;
+  flex-direction: row;
+  margin: 1px;
+}
+
+button {
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  padding: 2px;
+}
+
+.newTeamData > label {
+  width: 150px;
+  text-align: left;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+.newTeamData > input {
+  flex-grow: 1;
+}
