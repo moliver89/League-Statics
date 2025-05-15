@@ -10,6 +10,10 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+a:visited {
+  color: inherit;
+}
+
 img {
   width: 100px;
 }
